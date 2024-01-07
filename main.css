@@ -1,0 +1,16 @@
+h2 {
+    background-color: #274b5d;
+    color: #ffffff;
+
+    font-size: 20px;
+}
+
+p {
+    padding: 35px;
+    /* font-size: 20px; */
+}
+
+.title {
+    font-size: 65px;
+    text-align: center;
+  }
