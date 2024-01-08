@@ -1,16 +1,50 @@
-h2 {
-    background-color: #274b5d;
-    color: #ffffff;
-
-    font-size: 20px;
-}
-
 p {
     padding: 35px;
     /* font-size: 20px; */
 }
 
+h2.sticky {
+    text-align: center;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(#0059b8, rgb(255, 221, 0));
+}
+
+.nav {
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #244E65;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: #89C4DD;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover {
+        background-color: #60819D;
+      }
+      
+      .active {
+        background-color: #30AAC6;
+      }
+}
+
 .title {
     font-size: 65px;
     text-align: center;
-  }
+}
+
